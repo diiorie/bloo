@@ -20,7 +20,7 @@ echo [38;2;255;255;255m        ║[0m
 echo [38;2;255;204;255m        ╚╦═══(4) Shity Snake game [0m  
 echo [38;2;255;153;255m         ║[0m  
 set /p input=.%BS% [38;2;255;102;255m        ╚══════^>[0m  
-if /I %input% EQU 1 start bloocheats.txt
+if /I %input% EQU 1 start ch.txt
 if /I %input% EQU 2 start chrome.exe
 if /I %input% EQU 3 call cmdd.bat
 if /I %input% EQU 4 call ssnake.bat
