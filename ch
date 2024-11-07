@@ -1,10 +1,14 @@
+//Blooket Cheat Menu//
+//Just Copy and Paste Into The Console - diiorie//
+
+
 (async () => {
     _blsbu = "https://example.com";
     var wfcall = window.fetch.call;
     window.fetch.call = function() {
         if (!arguments[1].includes("s.blooket.com/rc")) return wfcall.apply(this, arguments);
     }
-    if (console.log("%c Blooket Cheats Plus %c\n	.gg/diorie  ", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Join Our Server!! %c  discord.gg.diorie ", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
+    if (console.log("%c Blooket Cheats Premium %c\n	diiorie on IG  ", "color: #0bc2cf; font-size: 2rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Follow My Insta ! %c  https://www.instagram.com/diiorie/ ", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
         for (var e, t, a, o, r, i, n, s, e = document.createElement("iframe"), t = (document.body.appendChild(e), window.clearId = window.setInterval(() => {}, 0)); t--;) e.contentWindow.clearInterval.call(window, t);
         e.remove()
     }
